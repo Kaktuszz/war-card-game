@@ -23,10 +23,10 @@ def run_game():
 p1_wins = 0
 p2_wins = 0
 tie = 0
-max_rounds = 0
-max_war = 0
+# max_rounds = 0
+# max_war = 0
 
-for i in range(100):
+for i in range(1000):
     winner = run_game()
     if winner == "Player1":
         p1_wins += 1
